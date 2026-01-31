@@ -83,7 +83,7 @@ const moment = require('moment-timezone');
 const {
     BOT_TOKEN,
     allowedDevelopers
-} = require("./config");
+} = require("./Getsuzo/config");
 const tdxlol = fs.readFileSync('./tdx.jpeg');
 const crypto = require('crypto');
 const o = fs.readFileSync(`./o.jpg`)
