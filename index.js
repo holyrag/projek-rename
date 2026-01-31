@@ -84,9 +84,7 @@ const {
     BOT_TOKEN,
     allowedDevelopers
 } = require("./Getsuzo/config");
-const tdxlol = fs.readFileSync('./tdx.jpeg');
 const crypto = require('crypto');
-const o = fs.readFileSync(`./o.jpg`)
 // --- Inisialisasi Bot Telegram ---
 const bot = new Telegraf(BOT_TOKEN);
 
